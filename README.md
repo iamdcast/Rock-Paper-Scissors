@@ -19,10 +19,9 @@
 
 ### Links
 
-- Netlify Sit : (https://rock-paper-scissors-bydcast.netlify.app/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Netlify Site : (https://rock-paper-scissors-bydcast.netlify.app/)
+- Github Site: (https://iamdcast.github.io/Rock-Paper-Scissors/)
 
-## My process
 
 ### Built with
 
