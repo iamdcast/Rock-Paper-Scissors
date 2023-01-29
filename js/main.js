@@ -1,5 +1,5 @@
 function botChoice (){
-    let choices = ["rock","paper","scissors"]
+    let choices = ["Rock","Paper","Scissors"]
     let bot = choices[Math.floor(Math.random() * 3)];
     return bot;
 }
@@ -15,7 +15,7 @@ function results (hand, botPick){
     document.querySelector('#userPick').removeAttribute("style");
     document.querySelector('.userhand div').removeAttribute("style");
     document.querySelector('#userPick').style.animationName="none";
-     if (hand === "rock" && botPick === "scissors" || hand === "scissors" && botPick === "paper" || hand === "paper" && botPick === "rock" ) {
+     if (hand === "Rock" && botPick === "Scissors" || hand === "Scissors" && botPick === "Paper" || hand === "Paper" && botPick === "Rock" ) {
 
         document.querySelector('#result').innerText = "You Win!";
         document.querySelector('#userPick').style.filter = "drop-shadow(0 0 1.5rem #E7F6F2)";
